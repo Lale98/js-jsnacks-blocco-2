@@ -79,6 +79,12 @@ for (var i = 0; i < squadre.length; i++) {
     squadre[i]["punti fatti"] = randomNumber(0, 30);
     squadre[i]["falli subiti"] = randomNumber(0, 10);
 
+
+    // OPZIONE 1
+    // delete squadre[i]["punti fatti"];
+    // falliSquadre.push(squadre[i]);
+
+    // OPZIONE 2
     falliSquadre.push(squadre[i].nome + ' = ' + squadre[i]["falli subiti"]);
 }
 
